@@ -16,6 +16,12 @@
             width: 600px;
         }
 
+        caption {
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 15px;
+        }
+
         thead {
             background-color: grey;
             color: white;
@@ -50,10 +56,11 @@
     -->
     
     <table>
+        <caption>População dos Estados Brasileiros</caption>
         <thead>
             <tr>
-                <th>Estados</th>
-                <th>População</th>
+                <th scope="col">Estados</th>
+                <th scope="col" style="width: 50px;">População</th>
             </tr>
         </thead>
         <tbody>
@@ -168,7 +175,7 @@
         </tbody>
         <tfoot>
             <tr>
-                <th>Total</th>
+                <th scope="row">Total</th>
                 <td class="num"><strong>213.317.639</strong></td>
             </tr>
         </tfoot>
