@@ -19,8 +19,17 @@ header > h1 {
     padding: 10px;
 }
 
+menu > span.material-symbols-outlined {
+    display: block;
+    padding: 5px;
+    color: white;
+    background-color: rgb(70, 70, 70);
+    text-align: center;
+}
+
 menu > ul {
     list-style-type: none;
+    display: none;
 }
 
 menu > ul > li > a {
